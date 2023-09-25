@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="de.hs_el.streekmann.algodat.aufgabe1.ExtendedFilledListTests" tests="12" skipped="1" failures="0" errors="0" timestamp="2023-09-22T08:27:49" hostname="JARVIS.local" time="0.01">
+  <properties/>
+  <testcase name="testRemoveFirstElement()" classname="de.hs_el.streekmann.algodat.aufgabe1.ExtendedFilledListTests" time="0.001"/>
+  <testcase name="testRemovePostIndex()" classname="de.hs_el.streekmann.algodat.aufgabe1.ExtendedFilledListTests" time="0.0"/>
+  <testcase name="testRemoveLastIndex()" classname="de.hs_el.streekmann.algodat.aufgabe1.ExtendedFilledListTests" time="0.0"/>
+  <testcase name="testRemoveFirstIndex()" classname="de.hs_el.streekmann.algodat.aufgabe1.ExtendedFilledListTests" time="0.001"/>
+  <testcase name="testIndexOfElementExists()" classname="de.hs_el.streekmann.algodat.aufgabe1.ExtendedFilledListTests" time="0.0"/>
+  <testcase name="testRemoveLastElement()" classname="de.hs_el.streekmann.algodat.aufgabe1.ExtendedFilledListTests" time="0.0"/>
+  <testcase name="testIndexOfNonExistingElement()" classname="de.hs_el.streekmann.algodat.aufgabe1.ExtendedFilledListTests" time="0.001"/>
+  <testcase name="testRemovePreIndex()" classname="de.hs_el.streekmann.algodat.aufgabe1.ExtendedFilledListTests" time="0.001"/>
+  <testcase name="testRemoveMiddleIndex()" classname="de.hs_el.streekmann.algodat.aufgabe1.ExtendedFilledListTests" time="0.001"/>
+  <testcase name="testIndexOfNull()" classname="de.hs_el.streekmann.algodat.aufgabe1.ExtendedFilledListTests" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="testRemoveUncontainedElement()" classname="de.hs_el.streekmann.algodat.aufgabe1.ExtendedFilledListTests" time="0.0"/>
+  <testcase name="testRemoveMiddleElement()" classname="de.hs_el.streekmann.algodat.aufgabe1.ExtendedFilledListTests" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

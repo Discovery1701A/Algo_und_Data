@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="de.hs_el.streekmann.algodat.aufgabe1.IteratorTests" tests="5" skipped="0" failures="0" errors="0" timestamp="2023-09-22T08:27:49" hostname="JARVIS.local" time="0.022">
+  <properties/>
+  <testcase name="testHasNextFilledList()" classname="de.hs_el.streekmann.algodat.aufgabe1.IteratorTests" time="0.012"/>
+  <testcase name="testNext()" classname="de.hs_el.streekmann.algodat.aufgabe1.IteratorTests" time="0.0"/>
+  <testcase name="testNextOnLastElement()" classname="de.hs_el.streekmann.algodat.aufgabe1.IteratorTests" time="0.004"/>
+  <testcase name="testNextOnEmptyList()" classname="de.hs_el.streekmann.algodat.aufgabe1.IteratorTests" time="0.001"/>
+  <testcase name="testHasNextEmptyList()" classname="de.hs_el.streekmann.algodat.aufgabe1.IteratorTests" time="0.003"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

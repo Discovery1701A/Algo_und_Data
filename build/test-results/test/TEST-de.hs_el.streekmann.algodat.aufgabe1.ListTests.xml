@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="de.hs_el.streekmann.algodat.aufgabe1.ListTests" tests="10" skipped="0" failures="0" errors="0" timestamp="2023-09-22T08:27:49" hostname="JARVIS.local" time="0.007">
+  <properties/>
+  <testcase name="testAddReturnValue()" classname="de.hs_el.streekmann.algodat.aufgabe1.ListTests" time="0.001"/>
+  <testcase name="testAddSizeIncreased()" classname="de.hs_el.streekmann.algodat.aufgabe1.ListTests" time="0.0"/>
+  <testcase name="testGetPostIndex()" classname="de.hs_el.streekmann.algodat.aufgabe1.ListTests" time="0.001"/>
+  <testcase name="testSizeFilledList()" classname="de.hs_el.streekmann.algodat.aufgabe1.ListTests" time="0.002"/>
+  <testcase name="testAddContainment()" classname="de.hs_el.streekmann.algodat.aufgabe1.ListTests" time="0.0"/>
+  <testcase name="testAddCorrectOrder()" classname="de.hs_el.streekmann.algodat.aufgabe1.ListTests" time="0.0"/>
+  <testcase name="testGetPreIndex()" classname="de.hs_el.streekmann.algodat.aufgabe1.ListTests" time="0.001"/>
+  <testcase name="testGetOnFilledList()" classname="de.hs_el.streekmann.algodat.aufgabe1.ListTests" time="0.0"/>
+  <testcase name="testSizeEmptyList()" classname="de.hs_el.streekmann.algodat.aufgabe1.ListTests" time="0.001"/>
+  <testcase name="testGetOnEmptyList()" classname="de.hs_el.streekmann.algodat.aufgabe1.ListTests" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

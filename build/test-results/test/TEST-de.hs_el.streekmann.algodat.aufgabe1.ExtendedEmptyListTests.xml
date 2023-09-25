@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="de.hs_el.streekmann.algodat.aufgabe1.ExtendedEmptyListTests" tests="7" skipped="0" failures="0" errors="0" timestamp="2023-09-22T08:27:49" hostname="JARVIS.local" time="0.005">
+  <properties/>
+  <testcase name="testRemoveUncontainedElementReturnValue()" classname="de.hs_el.streekmann.algodat.aufgabe1.ExtendedEmptyListTests" time="0.0"/>
+  <testcase name="testRemoveUncontainedElementListSize()" classname="de.hs_el.streekmann.algodat.aufgabe1.ExtendedEmptyListTests" time="0.0"/>
+  <testcase name="testRemovePostIndex()" classname="de.hs_el.streekmann.algodat.aufgabe1.ExtendedEmptyListTests" time="0.001"/>
+  <testcase name="testIndexOfNonExistingElement()" classname="de.hs_el.streekmann.algodat.aufgabe1.ExtendedEmptyListTests" time="0.0"/>
+  <testcase name="testRemovePreIndex()" classname="de.hs_el.streekmann.algodat.aufgabe1.ExtendedEmptyListTests" time="0.0"/>
+  <testcase name="testAddAndRemove()" classname="de.hs_el.streekmann.algodat.aufgabe1.ExtendedEmptyListTests" time="0.001"/>
+  <testcase name="testRemoveElement()" classname="de.hs_el.streekmann.algodat.aufgabe1.ExtendedEmptyListTests" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
