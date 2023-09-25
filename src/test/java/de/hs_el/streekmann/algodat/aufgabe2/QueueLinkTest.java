@@ -3,12 +3,12 @@ import static org.junit.jupiter.api.Assertions.*;
 
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
-public class QueueListUsingTest {
+public class QueueLinkTest {
     private Queue<Integer> queue;
 	
 	@BeforeEach
 	void beforeEach() {
-		queue = new ListUsingQueue<>();
+		queue = new LinkedQueue<>();
 	}
    
     @Test
@@ -39,13 +39,4 @@ public class QueueListUsingTest {
             assertEquals(2, queue.dequeue());
             assertTrue(queue.empty());
         }
-
-        
-       
-
-       
-
-       
-
-
-}
+    }

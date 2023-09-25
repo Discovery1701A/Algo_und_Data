@@ -10,29 +10,52 @@ public class LinkedQueue<E> implements Queue<E> {
 			this.successor = null;
 		}
 	}
+	Node emptyNode = new Node(null);
+Node first = emptyNode ;
+Node last = emptyNode;
+int numberOfElements = 0;
 
 	@Override
 	public boolean empty() {
-		// TODO Auto-generated method stub
-		return false;
+		return numberOfElements == 0;
 	}
 
 	@Override
 	public E first() {
-		// TODO Auto-generated method stub
-		return null;
+		return first.element;
 	}
 
 	@Override
 	public E enqueue(E element) {
-		// TODO Auto-generated method stub
-		return null;
+	Node newNode = new Node(element);
+	if (empty()) {
+		first = newNode;
+		last = newNode;
+	} else {
+		last.successor = newNode;
+		last = newNode;}
+	numberOfElements++;
+	return newNode.element;
+
 	}
 
 	@Override
 	public E dequeue() {
-		// TODO Auto-generated method stub
-		return null;
+		if (empty()) {
+			return null;
+		}
+		E element = first.element;
+		first = first.successor;
+		if (first == last) {
+			last = emptyNode;
+		}
+		
+		numberOfElements--;
+		if (numberOfElements == 0) {
+			first = emptyNode;
+			last = emptyNode;
+		}
+		return element;
 	}
 	
 	
