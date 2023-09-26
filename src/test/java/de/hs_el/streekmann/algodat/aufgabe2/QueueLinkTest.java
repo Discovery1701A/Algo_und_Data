@@ -11,6 +11,7 @@ public class QueueLinkTest {
 		queue = new LinkedQueue<>();
 	}
    
+    
     @Test
         void testDequeue() {
             queue.enqueue(3);

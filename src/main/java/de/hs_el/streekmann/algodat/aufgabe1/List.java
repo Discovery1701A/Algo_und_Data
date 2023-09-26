@@ -12,5 +12,6 @@ public interface List<E> extends Iterable<E>{
 	int indexOf(Object o);
 	int getCounteinzelt();
 	int getCountgesamt();
-	int getNextCount();
+	int getNextCountGesamt();
+	int getNextCountEinzelt();
 }

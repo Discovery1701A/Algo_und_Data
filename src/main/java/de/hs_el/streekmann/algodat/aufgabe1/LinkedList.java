@@ -123,9 +123,13 @@ int currentcouteinzelt = 0;
 	public int size() {
 		return numberOfElements;
 	}
-int nextcount = 0;
-public int  getNextCount(){
-	return nextcount;
+int nextcountgesamt = 0;
+int nextcounteinzelt =0;
+public int  getNextCountGesamt(){
+	return nextcountgesamt;
+}
+public int  getNextCountEinzelt(){
+	return nextcounteinzelt;
 }
 	@Override
 	public Iterator<E> iterator() {
@@ -142,7 +146,9 @@ public int  getNextCount(){
 				if (!hasNext()) {
 					throw new NoSuchElementException();
 				}
-				nextcount++;
+				nextcounteinzelt = 0;
+				nextcounteinzelt++;
+				nextcountgesamt++;
 				E element = nextNode.successor.element;
 				nextNode = nextNode.successor;
 				return element;

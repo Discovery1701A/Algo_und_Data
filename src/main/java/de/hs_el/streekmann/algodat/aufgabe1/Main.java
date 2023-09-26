@@ -36,14 +36,14 @@ public class Main {
 
 		System.out.println("--- ArrayList printed in foreach loop ---");
 		printListInForeachLoop(arrayList);
-		System.out.println("Iiterator ist efizienter als über get()");
-
+		System.out.println("Iiterator ist effizienter als über get(), da nicht soviele Sprünge gemacht werden müssen.");
 	}
 
 	private static <E> void printListInForLoopWithIterator(List<E> list) {
 		for (Iterator<E> iterator = list.iterator(); iterator.hasNext();) {
 			System.out.print(iterator.next() + "  ");
-			System.out.println(list.getNextCount());
+			System.out.println("Sprüge bis zu diesem Element: "+list.getNextCountEinzelt() + "   Gesamte Sprünge : " + list.getNextCountGesamt());
+	
 		}
 		System.out.println("\n");
 	}
@@ -59,7 +59,7 @@ public class Main {
 		//System.out.println(list.get(0));
 		for (int i = 0; i < list.size(); i++) {
 			System.out.print(list.get(i) + "  ");
-			System.out.println("Sprüge bis zu diesem Element: "+list.getCountgesamt() + "   Gesamte Sprünge : " + list.getCounteinzelt());
+			System.out.println("Sprüge bis zu diesem Element: "+list.getCounteinzelt() + "   Gesamte Sprünge : " + list.getCountgesamt());
 		}
 		//System.out.println(list.size());
 		System.out.println("\n");

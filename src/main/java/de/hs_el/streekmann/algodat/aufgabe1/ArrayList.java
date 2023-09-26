@@ -66,7 +66,8 @@ int currentcouteinzelt = 0;
 	public int indexOf(Object o) {
 		return 0;
 	}
-	int nextcount = 0;
+	int nextcountgesamt = 0;
+	int nextcounteinzelt = 0;
 	@Override
 	public Iterator<E> iterator() {
 		return new Iterator<E>() {
@@ -87,7 +88,9 @@ int currentcouteinzelt = 0;
 				if (nextIndex < size) {
 					nextIndex++;
 				}
-				nextcount++;
+				nextcounteinzelt = 0;
+				nextcountgesamt++;
+				nextcounteinzelt++;
 				return elementArray[currentIndex];
 			}
 
@@ -99,8 +102,11 @@ int currentcouteinzelt = 0;
 
 	}
 	@Override
-	public int getNextCount() {
-		return nextcount;
+	public int getNextCountGesamt() {
+		return nextcountgesamt;
+	}
+	public int getNextCountEinzelt() {
+		return nextcounteinzelt;
 	}
 
 }

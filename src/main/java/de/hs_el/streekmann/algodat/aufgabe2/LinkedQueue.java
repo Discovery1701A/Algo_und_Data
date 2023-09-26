@@ -17,7 +17,15 @@ int numberOfElements = 0;
 
 	@Override
 	public boolean empty() {
-		return numberOfElements == 0;
+		if (numberOfElements == 0) {
+			first = emptyNode;
+			last = emptyNode;
+			return true;
+		}else
+		{
+			return false;
+		}
+		
 	}
 
 	@Override
@@ -41,20 +49,10 @@ int numberOfElements = 0;
 
 	@Override
 	public E dequeue() {
-		if (empty()) {
-			return null;
-		}
 		E element = first.element;
 		first = first.successor;
-		if (first == last) {
-			last = emptyNode;
-		}
-		
 		numberOfElements--;
-		if (numberOfElements == 0) {
-			first = emptyNode;
-			last = emptyNode;
-		}
+		
 		return element;
 	}
 	
