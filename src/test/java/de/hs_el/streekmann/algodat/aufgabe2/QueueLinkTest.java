@@ -1,6 +1,7 @@
 package de.hs_el.streekmann.algodat.aufgabe2;
 import static org.junit.jupiter.api.Assertions.*;
 
+
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 public class QueueLinkTest {
@@ -40,4 +41,12 @@ public class QueueLinkTest {
             assertEquals(2, queue.dequeue());
             assertTrue(queue.empty());
         }
+
+        @Test
+        void emptyNot() {
+            queue.enqueue(3);
+            queue.enqueue(1);
+            assertFalse(queue.empty());
+        }
+            
     }

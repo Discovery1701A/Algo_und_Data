@@ -16,9 +16,9 @@
 
 		@Override
 		public E first() {
-			//if (empty()) {
-			//	throw new EmptyQueueException();
-			//}
+			if (empty()) {
+				throw new EmptyQueueException();
+			}
 			return list.get(0);
 		}
 
@@ -30,9 +30,9 @@
 
 		@Override
 		public E dequeue() {
-			//if (empty()) {
-			//	throw new EmptyQueueException();
-			//}
+			if (empty()) {
+				throw new EmptyQueueException();
+			}
 			if (list.size() > 0) {
 				
 				return list.remove(0);

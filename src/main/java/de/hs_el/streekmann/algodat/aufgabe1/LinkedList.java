@@ -79,10 +79,10 @@ public class LinkedList<E> implements List<E> {
 	@Override
 	public int indexOf(Object o) {
 		int index = 0;
-		Node currentNode = firstNode;
+		Node currentNode = firstNode.successor;
 		while (currentNode != null) {
 			if (o == null ? currentNode.element == null : o.equals(currentNode.element)) { // wenn das aktuelle Element das gesuchte Element ist
-				return index -1 ;
+				return index  ;
 			}
 			currentNode = currentNode.successor;
 			index++;

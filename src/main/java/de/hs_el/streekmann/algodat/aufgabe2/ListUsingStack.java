@@ -18,7 +18,6 @@ import java.util.EmptyStackException;
 			top = item;
 			return top;
 		}
-
 		@Override
 		public E pop() {
 			if (list.size() == 0) {

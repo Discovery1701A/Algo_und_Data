@@ -36,7 +36,8 @@ public class Main {
 
 		System.out.println("--- ArrayList printed in foreach loop ---");
 		printListInForeachLoop(arrayList);
-		System.out.println("Iiterator ist effizienter als über get(), da nicht soviele Sprünge gemacht werden müssen.");
+		System.out.println("Welche Konsequenzen ziehen Sie aus den Messungen für die Verwendung von Iteratoren?"+"\n"+"Bei der LinkedList der Iterator ist effizienter als die get(), da nicht soviele Sprünge gemacht werden müssen."
+		+"\n"+ "Bei der ArrayList macht es keinen Unterschied, ob get() oder Iterator.");
 	}
 
 	private static <E> void printListInForLoopWithIterator(List<E> list) {
